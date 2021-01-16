@@ -21,9 +21,11 @@ di = n1//n2
 ex = n1**n2
 re = n1%n2
 
-print('A soma é: {}; o produto é: {}; e a divisão é: {}'.format(s, m, d))
-
-print('A divisão inteira é:{}; O expoente é:{}; o resto da divisão é:{};'.format(di, ex, re))
+print('A soma é: {}; o produto é: {}; e a divisão é: {:.3f}'.format(s, m, d))
+# Na divisão, para indicar o número de casas decimais podemos fazer da seguinte forma {:.2f} {:}=tag 2=o numero de casas decimais desejadas e f=float->flutuante.
+print('A divisão inteira é:{}; \nO expoente é:{}; \nO resto da divisão é:{};'.format(di, ex, re))
+# "\n = quebrar linha"
+# " end='' =continuar escrevendo na mesma linha".
 
 fim = ('The End.')
-print('{:^12}'.format(fim))
+print('{:>12}!'.format(fim))
