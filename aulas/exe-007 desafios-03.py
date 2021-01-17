@@ -11,8 +11,8 @@ print(25**(1/2))
 print('oi'*6)
 print('='*12)
 
-n1 = int(input('Digite um número:'))
-n2 = int(input('Digite outro número'))
+n1 = int(input('Digite um número: '))
+n2 = int(input('Digite outro número: '))
 
 s = n1+n2
 m = n1*n2
@@ -28,4 +28,4 @@ print('A divisão inteira é:{}; \nO expoente é:{}; \nO resto da divisão é:{}
 # " end='' =continuar escrevendo na mesma linha".
 
 fim = ('The End.')
-print('{:>12}!'.format(fim))
+print('{:^12}!'.format(fim))

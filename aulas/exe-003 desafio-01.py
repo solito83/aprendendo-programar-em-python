@@ -12,4 +12,4 @@ nun2=int(input('Digite outro número: '))
 soma=nun1+nun2
 fim = 'The End'
 
-print('A soma é: {}\n\n{}'.format(soma,fim))
+print('A soma é: {}\n{}'.format(soma,fim))

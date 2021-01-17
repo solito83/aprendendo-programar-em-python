@@ -1,6 +1,6 @@
 print('exe-005 desafios-02')
 
-nasa = input('Digite algo')
+nasa = input('Digite algo: ')
 print('O tipo primitivo de nasa é',type(nasa))
 print('nasa só tem espaço',nasa.isspace())
 print('nasa: é um número?',nasa.isnumeric())
