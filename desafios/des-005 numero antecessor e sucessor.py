@@ -2,7 +2,7 @@ des = ('Desafio-005 número antecessor e sucessor')
 print ('{}.'.format(des))
 #Desafio-05 >>> Faça um programa que leia um numero inteiro e mostre na tela o seu antecessor e seu sucessor.
 
-n1 = int(input('Digite um número:'))
+n1 = int(input('Digite um número: '))
 n2 = (1)
 s1 = (n1+n2)
 s2 = (n1-n2)
