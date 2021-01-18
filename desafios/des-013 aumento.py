@@ -5,6 +5,6 @@ print ('{}'.format(des))
 sal = float(input('Qual é seu salário atual: '))
 aum = float(input('Digite seu aumento: '))
 
-pre = (sal+(sal*(aum/100)))
-fim = ('The End')
+pre = sal+(sal*(aum/100))
+fim = 'The End'
 print ('Legal com este aumento você vai ganhar R${:.2f} reais.\n{}'.format(pre,fim))

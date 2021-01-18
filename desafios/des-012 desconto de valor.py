@@ -5,6 +5,6 @@ print ('{}'.format(des))
 pro = float(input('Qual é o valor do produto: '))
 desc = float(input('Qual é o valor do desconto: '))
 
-pre = (pro-(pro*(desc/100)))
+pre = pro-(pro*(desc/100))
 fim = ('The End')
 print ('Legal com este desconto você vai pagar apenas R${:.2f} reais.\n{}'.format(pre,fim))

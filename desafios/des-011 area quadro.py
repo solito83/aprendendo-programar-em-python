@@ -5,6 +5,8 @@ print ('{}'.format(des))
 alt = float(input('Digite a altura: '))
 lar = float(input('Digite a lagura: '))
 
-area = (alt*lar)/2
+area = (alt*lar)
+tinta = (alt*lar)/2
 fim = ('The End')
-print ('É necessário {:.2f} litros de tinta para pintar toda a area.\n{}'.format(area,fim))
+
+print ('Sua área tem {:.2f}m²\nÉ necessário {:.2f} litros de tinta para pintar toda a area.\n{}'.format(area,tinta,fim))

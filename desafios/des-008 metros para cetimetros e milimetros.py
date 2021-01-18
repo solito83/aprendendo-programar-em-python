@@ -4,9 +4,9 @@ print ('{}.'.format(des))
 
 me = float(input('Digite um número: '))
 
-ce = (me*100)
-mi = (me*1000)
+ce = me*100
+mi = me*1000
 
-print('Você tem {:.0f} metros \nOu {:.0f} centimetros \nOu {:.0f} milimetros'.format(me, ce, mi))
+print('Você tem {:.2f} metros \nOu {:.0f} centimetros \nOu {:.0f} milimetros'.format(me, ce, mi))
 
 print('The End')

@@ -5,8 +5,8 @@ print ('{}'.format(des))
 ola = str(input('Olá diga seu nome: '))
 print('Muito Prazer {}'.format(ola))
 
-conv = float(input('Quantos reais você tem? '))
+conv = float(input('Quantos reais você tem? R$'))
 dol = 5.25
-tem = (conv*dol)
+tem = (conv/dol)
 fim = ('The End')
-print ('{:.2f}\n{}'.format(tem,fim))
+print ('Muito bem Você pode comprar U${:.2f}\n{}'.format(tem,fim))
