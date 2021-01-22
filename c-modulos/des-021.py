@@ -4,7 +4,7 @@ print('{}'.format(des))
 
 import pygame
 pygame.init()
-pygame.mixer.music.load('modulos\pushme.mp3')
+pygame.mixer.music.load('c-modulos\pushme.mp3')
 pygame.mixer.music.play()
 pygame.mixer.music.stop()
 
