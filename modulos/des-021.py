@@ -1,3 +1,0 @@
-des = '...'
-print ('{}'.format(des))
-#...
