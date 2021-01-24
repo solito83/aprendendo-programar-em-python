@@ -15,3 +15,6 @@ print ('Colocando o texto todo em minúsculo: ',nome.lower(),'ok')
 print ('Contando as letras e excluíndo os espaços da contagem ', len(nome.strip()), '<corrigir>')
 
 print ('Contando somente as letras do primeiro nome: =',len(nome[:6]),'letras <corrigir>')
+
+print (nome[2:10:2])
+print (nome.capitalize())

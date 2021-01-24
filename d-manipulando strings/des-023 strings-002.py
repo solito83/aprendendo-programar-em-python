@@ -5,4 +5,7 @@ print ('{}'.format(des))
 
 n1 = int(input('Digite um número: '))
 num = n1
-print (num)
+print ((num[3]), 'unidade')
+print ((num[2]), 'dezena')
+print ((num[1]), 'centena')
+print ((num[0]), 'milhar')
