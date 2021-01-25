@@ -6,15 +6,16 @@ print ('{}'.format(des))
 #Quantas letras ao todo sem considerar espaços
 #Quantas letras tem o primeiro nome.
 
-nom = str(input('Qual é seu nome: '))
+nom = str(input('Qual é seu nome: ')).strip()
 nome = nom
-print ('Meu nome é: {}'.format(nome))
 
 print ('Colacando o texto todo em maiúsculo: ',nome.upper(),'OK')
 print ('Colocando o texto todo em minúsculo: ',nome.lower(),'ok') 
-print ('Contando as letras e excluíndo os espaços da contagem ', len(nome.strip()), '<corrigir>')
+print ('Seu nome completo é: {} e contém {} letras ao todo.'.format(nome, len(nome) - nome.count(' ')))
+print ('Seu primeiro nome tem: {} letras'.format(nome.find(' ')))
 
-print ('Contando somente as letras do primeiro nome: =',len(nome[:6]),'letras <corrigir>')
+div = nome.split()
+print ('Seu primeiro nome é: {} e tem {} letras'.format(div[0], len(div[0])))
 
 print (nome[2:10:2])
 print (nome.capitalize())
