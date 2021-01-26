@@ -3,9 +3,9 @@
 nome = str(input('Digite seu nome: '))
 if nome == 'Solito':
     print ('Legal! seu nome é diferente!')
-else:
-    print ('Seu nome é bem comum.')
-print ('fim')
+#else:
+#    print ('Seu nome é bem comum.')
+#print ('fim')
 
 from emoji import emojize
 em = emojize (':sweat_smile:', use_aliases=True)
