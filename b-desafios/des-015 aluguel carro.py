@@ -9,4 +9,3 @@ pago = dia * 60 + km * 0.15
 fim = 'The End'
 
 print ('O total a pagar é de R${:.2f} reais\n{}'.format(pago,fim))
-

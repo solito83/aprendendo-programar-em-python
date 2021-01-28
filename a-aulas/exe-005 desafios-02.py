@@ -11,4 +11,3 @@ print('nasa está em minusculo?',nasa.islower())
 print('nasa está capitalizada?',nasa.istitle())
 
 print('The End')
-
