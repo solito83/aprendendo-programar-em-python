@@ -17,7 +17,7 @@ else:
 
 print ('O valor da prestação é de: R${:.2f} reais'.format(pres))
 
-if casa / (temp*12) < (sala * (30/100)):
+if casa / (temp*12) <= (sala * (30/100)):
     print ('\033[0;31mParabéns!!! você está Pronto para se mudar?\033[m')
 
 elif  casa / (temp*12) > (sala * (30/100)) and casa / (temp*12) < (sala * (40/100)) :
