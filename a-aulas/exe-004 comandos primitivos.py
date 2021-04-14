@@ -1,5 +1,5 @@
 print('exe-004 comandos primitivos')
-print('Tipos primitivos de comandos -int=inteiro- floot')
+print('Tipos primitivos de comandos -int = inteiro- floot')
 
 num1=int(input('Digite um número '))
 num2=int(input('Digite outro número '))

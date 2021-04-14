@@ -6,7 +6,7 @@ ola = str(input('Olá diga seu nome: '))
 print('Muito Prazer {}'.format(ola))
 
 conv = float(input('Quantos reais você tem? R$'))
-dol = 5.25
+dol = 5.69
 tem = (conv/dol)
 fim = ('The End')
 print ('Muito bem Você pode comprar U${:.2f}\n{}'.format(tem,fim))

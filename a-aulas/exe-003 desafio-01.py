@@ -9,7 +9,7 @@ print('Muito prazer, {}!'.format(nome),'você nasceu em',dia,'de',mes,'de',ano)
 
 nun1=int(input('Digite um número: '))
 nun2=int(input('Digite outro número: '))
-soma=nun1+nun2
+soma = nun1 + nun2
 fim = 'The End'
 
 print('A soma é: {}\n{}'.format(soma,fim))
